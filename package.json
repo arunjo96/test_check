@@ -1,0 +1,12 @@
+{
+  "name": "b29",
+  "version": "1.0.0",
+  "description": "",
+  "main": "function.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cls && node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
