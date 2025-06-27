@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .list_sec{
+            list-style: none;
+        }
+        .list_sec li:first-child{
+            color: red;
+        }
+        .list_sec li{
+            color: blue;
+        }
+
+        .nested_item li{
+             color: blue !important;
+        }
+
+        @media (min-width: 600px) {
+            
+        }
+
+        :root{
+            background-color: #ccc;
+        }
+
+        
+    </style>
+</head>
+<body>
+                <nav>
+            <ul class="list_sec">
+                    <li>Direct Child</li> <!-- red -->
+                    <li>
+                        Nested Child <!-- blue -->
+                    </li>
+                    <ul class="nested_item">
+                    <li>Nested List Item</li> <!-- blue -->
+                    </ul>
+                </ul>
+            </nav>
+</body>
+</html>
