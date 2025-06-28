@@ -37,6 +37,7 @@ const input = "praveen"
     for( let i = 0; i < input.length; i++){
         console.log(input[i])
     }
+    
 
 
 // MRF
@@ -83,15 +84,23 @@ console.log(newMapArrArr);
 
 // ---fliter
 
+// const mrfArr1 = [2,4,6,8,10]
+
+console.log("filter => method")
+
 const fliterArr = mrfArr1.filter((value, index, accArr)=>{
     return value != 6;
 });
 console.log(fliterArr)
 
 // ---reduce
+console.log("reduce => method")
+
 const reduceData = mrfArr1.reduce((acc, value, index, accArr)=>{
     return acc + value
 }, 0)
 console.log(reduceData)
+
+
 
 
